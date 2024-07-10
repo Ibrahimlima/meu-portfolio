@@ -1,0 +1,35 @@
+:root{
+    --color-background: #01091cb0;
+    --color-shadow: #00000040;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 5rem 3rem 0.5rem;
+}
+
+.card section{
+    background-color: var(--color-background);
+    border-radius: 1rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem var(--color-shadow));
+    padding: 0.5rem 2rem;
+    margin-left: 8rem;
+}
+
+.card img:hover{
+    transform: translatey(-0.738rem);
+    cursor: pointer;
+    transition-duration: 0.7s;
+    
+}
+
+.card h2{
+    font-size: 2rem;
+}
+
+.card p{
+    font-size: 1.625rem;
+}

@@ -1,0 +1,27 @@
+:root{
+    --color-white: #fff;
+  }
+  
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    margin: 0.90rem;
+}
+
+.navbar a{
+    color: var(--color-white) !important;
+    text-decoration: none;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,17 @@
+.btn{
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: transparent;
+    color: #2ECC71;
+    padding: 1rem 3rem;
+    border: 0.125rem #2ECC71 solid;
+    border-radius: 0.938rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: translatey(-0.438rem);
+    transition-duration: 0.8s;
+    color: #9896b6ce;
+    border: 0.125rem #9896b6ce solid;
+}
