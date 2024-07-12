@@ -7,6 +7,7 @@ import lndpg from '../../img/Projects/landingpagednc.svg'
 import tabu from '../../img/Projects/tabuadadnc.svg'
 import weather from '../../img/Projects/weatherdnc.svg'
 import portf from '../../img/Projects/portfoliotestednc.svg'
+import portfB from '../../img/Projects/portfolioBruno.svg'
 
 
 
@@ -62,6 +63,14 @@ function Projects(){
                 tec='HTML / CSS / JS'
                 descr='Este projeto foi feito para o "Desafio nº 2" durante o curso da DNC. Sendo criado um site capaz de apresentar as informações de cep e temperatura de locais especificado.'
                 rep='https://github.com/Ibrahimlima/WeatherDNC'
+                />
+                <Card 
+                site='meu-portfolio-three-xi.vercel.app'
+                img={portfB}
+                title='Ibrahim`s Portfólio'
+                tec='HTML / CSS / JS / REACT'
+                descr='Este projeto foi feito durante o curso da DNC. Sendo criado este meu portfólio.'
+                rep='https://github.com/Ibrahimlima/meu-portfolio'
                 />
             </div>
             <div className={styles.divbtn}>
