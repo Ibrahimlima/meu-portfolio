@@ -32,11 +32,12 @@
     filter: drop-shadow(0rem 0.25rem 0.25rem var(--color-shadow));
     height: 8.75rem;
     cursor: cell;
+    transition-duration: 0.9s;
 }
 
 .skills img:hover{
     transform: translatey(-0.738rem);
-    transition-duration: 0.7s;
-    height: 10rem;
-    width: 10rem;
+    transition-duration: 0.9s;
+    height: 12rem;
+    width: 12rem;
 }
